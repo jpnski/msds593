@@ -1,4 +1,4 @@
-# MSDS593 Exploratory data analysis (EDA) at the University of San Francisco
+# MSDS593 Exploratory data analysis (EDA) and Visualization at the University of San Francisco
 
 This course introduces students to the key...
 
@@ -149,6 +149,8 @@ We will be interleaving lectures from Yannet and Terence, but we can separate th
 
 * [Coding and implementation overview](notebooks/eda-viz-impl-overview.ipynb)
 * [Crash course in Python used in EDA](notebooks/python-crashcourse.ipynb)
+* [Basic matplotlib cookbook](notebooks/matplotlib-cookbook.ipynb)
+* [Beautifying matplotlib plots](notebooks/matplotlib-beautify.ipynb)
 * [Introduction to pandas](notebooks/pandas-intro.ipynb)
 * [EDA for Kaggle NYC Rent data set](notebooks/nyrent.ipynb)
 * [Even more NYC rent exploration](notebooks/nyrent2.ipynb)
@@ -173,8 +175,9 @@ We will be interleaving lectures from Yannet and Terence, but we can separate th
 * scatter; alpha channel
 * line plot
 * boxplot
-* bubble plot
 * strip plot
+* violin plot
+* bubble plot
 * heatmap
 * images (MNIST)
 * display matrices
@@ -182,7 +185,7 @@ We will be interleaving lectures from Yannet and Terence, but we can separate th
 * drawing lines, shapes, text, annotations
 * altering axes, labels; titles
 * misc: legends, colorbar, linewidth, line style, colors
- 
+
 ## Administrative details
 
 **ACADEMIC HONESTY**. You must abide by the copyright laws of the United States and academic honesty policies of USF. You may not copy code from other current or previous students. All suspicious activity will be investigated and, if warranted, passed to the Dean of Sciences for action.  Copying answers or code from other students or sources during a quiz, exam, or for a project is a violation of the university’s honor code and will be treated as such. Plagiarism consists of copying material from any source and passing off that material as your own original work. Plagiarism is plagiarism: it does not matter if the source being copied is on the Internet, from a book or textbook, or from quizzes or problem sets written up by other students. Giving code or showing code to another student is also considered a violation.
