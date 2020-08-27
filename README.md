@@ -8,7 +8,7 @@ This course introduces students to the key...
 
 **OFFICE HOURS**
 
-* Yannet Tuesdays 4-5pm on zoom 
+* Yannet TBA
 * Terence is generally available on slack or email on-demand
 
 **SPATIAL COORDINATES:**<br>
@@ -136,7 +136,7 @@ You will be doing exercises during class in Terence's lectures and you should cr
 
 We will be interleaving lectures from Yannet and Terence, but we can separate the topics into visualization, [pandas](https://pandas.pydata.org/) for data manipulation, and [matplotlib](https://matplotlib.org/) for basic plotting.
 
-### Visualization
+### Visualization (Yannet)
 
 * value of visualization; the importance of context
 * introduction to visualization design; choosing an effective visual
@@ -145,21 +145,36 @@ We will be interleaving lectures from Yannet and Terence, but we can separate th
 * visualizing trees, maps, networks and text
 * storytelling with data
 
-### Viz Implementation and intro to EDA
+### Viz Implementation and EDA (Terence)
 
-* [Coding and implementation overview](notebooks/eda-viz-impl-overview.ipynb)
-* [Crash course in Python used in EDA](notebooks/python-crashcourse.ipynb)
-* [Basic matplotlib cookbook](notebooks/matplotlib-cookbook.ipynb)
-* [Beautifying matplotlib plots](notebooks/matplotlib-beautify.ipynb)
-* [Custom matplotlib plots](notebooks/matplotlib-customize.ipynb)
-* [Introduction to pandas](notebooks/pandas-intro.ipynb)
-* [EDA for Kaggle NYC Rent data set](notebooks/nyrent.ipynb)
-* [Even more NYC rent exploration](notebooks/nyrent2.ipynb)
-* [Bulldozer auction exploration](notebooks/bulldozer.ipynb)
+* [Coding and implementation overview](https://colab.research.google.com/github/parrt/msds593/blob/master/notebooks/eda-viz-impl-overview.ipynb)
+* [Crash course in Python used in EDA](https://colab.research.google.com/github/parrt/msds593/blob/master/notebooks/python-crashcourse.ipynb)
+
+#### Making plots with matplotlib
+
+* [Basic matplotlib cookbook](https://colab.research.google.com/github/parrt/msds593/blob/master/notebooks/matplotlib-cookbook.ipynb)
+* [Beautifying matplotlib plots](https://colab.research.google.com/github/parrt/msds593/blob/master/notebooks/matplotlib-beautify.ipynb)
+* [Custom matplotlib plots](https://colab.research.google.com/github/parrt/msds593/blob/master/notebooks/matplotlib-customize.ipynb)
+
+Topics:
+
+* plots: bar chart, histogram, scatter, line, box, strip, violin,  bubble plot
+* images (MNIST)
+* displaying matrices / heatmaps
+* overlaid plots for comparing variables; arrays of plots; shared axes
+* drawing lines, shapes, text, annotations
+* altering axes, labels; titles
+* misc: legends, colorbar, linewidth, line style, colors, alpha channel
 
 #### Pandas
 
-* introduction and overview of pandas; examples of the major components, what we can do
+* [Introduction to pandas](https://colab.research.google.com/github/parrt/msds593/blob/master/notebooks/pandas-intro.ipynb)
+* [EDA for Kaggle NYC Rent data set](https://colab.research.google.com/github/parrt/msds593/blob/master/notebooks/nyrent.ipynb)
+* [Even more NYC rent exploration](https://colab.research.google.com/github/parrt/msds593/blob/master/notebooks/nyrent2.ipynb)
+* [Bulldozer auction exploration](https://colab.research.google.com/github/parrt/msds593/blob/master/notebooks/bulldozer.ipynb)
+
+Topics:
+
 * fundamentals: key data types. df vs series. numpy relationship.  dealing with NaN for missing elements vs empty string. categorical versus numerical.
 * selecting, slicing, method chaining, indexes
 * sorting, removing duplicates, shuffle, sample
@@ -168,24 +183,6 @@ We will be interleaving lectures from Yannet and Terence, but we can separate th
 * aggregation, grouping, binning, quantiles
 * map function or dictionary to Series (apply?)
 * merging/joining/stacking
-* feather format
-
-#### Making plots with matplotlib
-
-* bar chart, histogram
-* scatter; alpha channel
-* line plot
-* boxplot
-* strip plot
-* violin plot
-* bubble plot
-* heatmap
-* images (MNIST)
-* display matrices
-* overlaid plots for comparing variables; arrays of plots; shared axes
-* drawing lines, shapes, text, annotations
-* altering axes, labels; titles
-* misc: legends, colorbar, linewidth, line style, colors
 
 ## Administrative details
 
