@@ -3,3 +3,5 @@
 ./notebooks/__pycache__/
 ./labs/.ipynb_checkpoints/
 ./labs/__pycache__/
+./labs/ds/lib/python3.8/site-packages/__pycache__/
+
