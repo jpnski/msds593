@@ -1,0 +1,9 @@
+- changed figsize to (16,10)
+- increased fig gridspec wspace from 0.3 to 0.4
+- lower red bar alpha value in function from 0.5 to 0.35
+- add minor ticks in 5 year increments to x-axis
+- change ax.annotate in redbar function to only display first year rather than first, last year
+- changed ax.annotate text color from red to black
+- add x tick_params for redbar year annotation  
+    - make these ticks of interest wider and longer to differentiate from minor ticks
+- changed text for annotation of Italy
